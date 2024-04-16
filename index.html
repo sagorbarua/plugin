@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <!-- css links for plugin -->
+  <link rel="stylesheet" href="aos-master/dist/aos.css" />
+  <link rel="stylesheet" href="lightbox2-dev/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+
+  <!-- css main links -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+</head>
+<body>
+  <!-- prelaoder html code start -->
+  <div class="preloader js-preloader flex-center">
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+  <!-- prelaoder html code end -->
+
+  <!-- slick slider start -->
+  <section class="bg-secondary pb-3">
+    <div class="container">
+      <div class="multiple-items  mb-5">
+        <div class="demo">
+          <img class="w-100" src="images/1.webp" alt="">
+        </div>
+        <div class="demo" >
+          <img class="w-100" src="images/2.webp" alt="">
+        </div>
+        <div class="demo">
+          <img class="w-100" src="images/3.webp" alt="">
+        </div>
+        <div class="demo">
+          <img class="w-100" src="images/1.webp" alt="">
+        </div>
+        <div class="demo">
+          <img class="w-100" src="images/2.webp" alt="">
+        </div>
+        <div class="demo">
+          <img class="w-100" src="images/3.webp" alt="">
+        </div>
+      </div>  
+    </div>
+  </section>
+  <!-- slick slider end -->
+  
+
+<!-- counter plugin start -->
+<section>
+  <div class="container">
+    <h1 class="text-center mb-3">Counter Plugin</h1>
+    <div class="row text-center">
+      <div class=" col-lg-4 col-md-6 col-12">
+        <div class="box">
+          <h2>Number of project</h2>
+          <p class="1st_count">200</p>
+        </div>
+      </div>
+      <div class=" col-lg-4 col-md-6 col-12">
+        <div class="box">
+          <h2>Number of Clients</h2>
+          <p class="2nd_count">150</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="box">
+          <h2>Number of Students</h2>
+          <p class="3rd_count">500</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- counter plugin end -->
+
+
+<!-- mix-it plugin start -->
+<section>
+  <h1 class="text-center mt-4">Mix it plugin</h1>
+  <div class="container" id="mix-it">
+    <!-- button start -->
+    <div class="wrapper-btn mt-4 text-center">
+     <button class="btn btn-secondary" data-filter="all">All</button>
+     <button class="btn btn-dark" data-filter=".black">Black</button>
+     <button class="btn btn-primary" data-filter=".white">White</button>
+     <button class="btn btn-success" data-filter=".unique">Unique</button>
+     <!-- button end -->
+    </div>
+    <!-- images start -->
+     <div class="row">
+       <div class="col-lg-4 mt-3 mix white ">
+         <div class="img-container  ">
+           <img class="w-100" src="images/1.webp" alt="">
+         </div>
+       </div>
+       <div class="col-lg-4 mt-3 mix unique">
+         <div class="img-container  ">
+           <img class="w-100" src="images/2.webp" alt="">
+         </div>
+       </div>
+       <div class="col-lg-4 mt-3 mix black">
+         <div class="img-container  ">
+           <img class="w-100" src="images/3.webp" alt="">
+         </div>
+       </div>
+       <div class="col-lg-4 mt-3 mix black">
+         <div class="img-container ">
+           <img class="w-100" src="images/4.webp" alt="">
+         </div>
+       </div>
+       <div class="col-lg-4 mt-3 mix white">
+         <div class="img-container ">
+           <img class="w-100" src="images/5.webp" alt="">
+         </div>
+       </div>
+       <div class="col-lg-4 mt-3 mix unique">
+         <div class="img-container ">
+           <img class="w-100" src="images/6.webp" alt="">
+         </div>
+       </div>
+       <!-- images end -->
+     </div>
+   </div>
+</section>
+<!-- mix-it plugin end -->
+<hr> 
+
+<!-- light-box and aos plugin start -->
+<section class="light-box ">
+  <h1 class="text-center mb-4">Light-box and aos plugin</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1800">
+        <div class="img-1" >
+          <a href="images/1.webp" data-lightbox="img-1" data-title="White Punjabi">
+            <img class="w-100" src="images/1.webp" alt="">
+          </a>  
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="img-1" >
+          <a href="images/2.webp" data-lightbox="img-1" data-title="Unique Punjabi">
+            <img class="w-100" src="images/2.webp" alt="">
+          </a> 
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="2200">
+        <div class="img-1" >
+          <a href="images/3.webp" data-lightbox="img-1" 
+          data-title="My caption">
+          <img class="w-100" src="images/3.webp" alt=""></a>         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- light-box and aoe plugin end -->
+
+
+
+ <!-- liabry file always on the top then plugin under it -->
+ <script src="script/jquery-3.7.1.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+  integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+  crossorigin="anonymous"></script>
+
+ <!-- liabry file end -->
+  <script src="Loader-Preloader-Plugin-jQuery-Preloadinator/dist/js/jquery.preloadinator.min.js"></script>
+  <script src="aos-master/dist/aos.js"></script>
+ <script src="lightbox2-dev/dist/js/lightbox.min.js"></script>
+ <script src="count-up-me/res/countMe/countMe.min.js"></script>
+ <script src="mixitup-3/mixitup.min.js"></script>
+ <script src="slick-1.8.1/slick/slick.min.js"></script>
+ <script src="script/bootstrap.bundle.min.js"></script>
+ <script src="script/script.js"></script>
+</body>
+</html>
